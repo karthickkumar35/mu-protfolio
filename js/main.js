@@ -1,0 +1,32 @@
+let navbaricon = document.querySelector(".navbar-icon");
+let jsvisible = document.querySelector(".js-visible");
+let jsnavul = document.querySelector(".js-navul1");
+let jsnavli = document.querySelector(".js-navli1");
+let jsnavlia = document.querySelector(".js-navlia1");
+let jsnavli2 = document.querySelector(".js-navli2");
+let jsnavlia2 = document.querySelector(".js-navlia2");
+let jsnavli3 = document.querySelector(".js-navli3");
+let jsnavlia3 = document.querySelector(".js-navlia3");
+let jsnavli4 = document.querySelector(".js-navli4");
+let jsnavlia4 = document.querySelector(".js-navlia4");
+let jsnavli5 = document.querySelector(".js-navli5");
+let jsnavlia5 = document.querySelector(".js-navlia5");
+let jsnavli6 = document.querySelector(".js-navli6");
+let jsnavlia6 = document.querySelector(".js-navlia6");
+function navbar(){
+	jsvisible.style.display="block";
+	jsnavul.classList.toggle("js-navul");
+	jsnavli.classList.toggle("js-navli");
+	jsnavlia.classList.toggle("js-navlia");
+	jsnavli2.classList.toggle("js-navli");
+	jsnavlia2.classList.toggle("js-navlia");
+	jsnavli3.classList.toggle("js-navli");
+	jsnavlia3.classList.toggle("js-navlia");
+	jsnavli4.classList.toggle("js-navli");
+	jsnavlia4.classList.toggle("js-navlia");
+	jsnavli5.classList.toggle("js-navli");
+	jsnavlia5.classList.toggle("js-navlia");
+	jsnavli6.classList.toggle("js-navli");
+	jsnavlia6.classList.toggle("js-navlia");
+	navbaricon.style.display="none";
+}
